@@ -1,0 +1,251 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002017, month=000000000011, day=000000000002, hour=000000000011, min=000000000011, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000008581, lin=000000000228, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock111'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(0.01, 0.01)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=5960, p=1, de_ee='(0.086229, N/A)', te=468.4190681771522, ee=0.08622858499299338)
+	c(tri=7756, p=2, de_ee='(0.049299, 0.13517)', te=469.0522522518368, ee=0.04929859835787202, de=0.1351747009677971)
+	c(tri=10084, p=3, de_ee='(0.024996, 0.068624)', te=469.3741327457464, ee=0.02499561478284315, de=0.06862358988028323)
+	c(tri=13110, p=4, de_ee='(0.018261, 0.039706)', te=469.5605014906699, ee=0.01826105836566092, de=0.0397057979811038)
+	c(tri=17043, p=5, de_ee='(0.0095337, 0.025608)', te=469.6807482433777, ee=0.009533736474196593, de=0.02560836193120557)
+	c(tri=22156, p=6, de_ee='(0.0071851, 0.015287)', te=469.752549110289, ee=0.007185112259068869, de=0.01528716413859795)
+	c(tri=28804, p=7, de_ee='(0.0036868, 0.010525)', te=469.8019901723242, ee=0.003686796194845736, de=0.01052491617743331)
+	c(tri=37447, p=8, de_ee='(0.0028326, 0.006089)', te=469.8305962902807, ee=0.002832647805925035, de=0.006088973345130488)
+$end 'SolutionBlock111'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=195, Instance=\'$Current=\\\'120A\\\' $N=\\\'100\\\'\', Solution=-3, VersionID=418)'='SolutionBlock111'
+	'SolutionKey(SimSetup=195, Instance=\'SetupDefinition\', Solution=-1, VersionID=418)'='SolutionBlock110'
+	'SolutionKey(SimSetup=195, Instance=\'SolutionDefinition\', Solution=196, VersionID=418)'='SolutionBlock108'
+	'SolutionKey(SimSetup=195, Instance=\'SolutionDefinition\', Solution=197, VersionID=418)'='SolutionBlock109'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=418
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=442
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='$Current=\'0A\' $N=\'40\'', ID=138)
+		Map(V='$Current=\'100A\' $N=\'40\'', ID=158)
+		Map(V='$Current=\'105A\' $N=\'40\'', ID=159)
+		Map(V='$Current=\'10A\' $N=\'40\'', ID=140)
+		Map(V='$Current=\'110A\' $N=\'40\'', ID=160)
+		Map(V='$Current=\'115A\' $N=\'40\'', ID=161)
+		Map(V='$Current=\'120A\' $N=\'100\'', ID=22)
+		Map(V='$Current=\'120A\' $N=\'25\'', ID=134)
+		Map(V='$Current=\'120A\' $N=\'40\'', ID=135)
+		Map(V='$Current=\'120A\' $N=\'50\'', ID=86)
+		Map(V='$Current=\'120A\' $N=\'80\'', ID=85)
+		Map(V='$Current=\'125A\' $N=\'40\'', ID=162)
+		Map(V='$Current=\'130A\' $N=\'40\'', ID=163)
+		Map(V='$Current=\'135A\' $N=\'40\'', ID=164)
+		Map(V='$Current=\'140A\' $N=\'40\'', ID=165)
+		Map(V='$Current=\'145A\' $N=\'40\'', ID=166)
+		Map(V='$Current=\'150A\' $N=\'40\'', ID=167)
+		Map(V='$Current=\'15A\' $N=\'40\'', ID=141)
+		Map(V='$Current=\'20A\' $N=\'40\'', ID=142)
+		Map(V='$Current=\'25A\' $N=\'40\'', ID=143)
+		Map(V='$Current=\'30A\' $N=\'40\'', ID=144)
+		Map(V='$Current=\'35A\' $N=\'40\'', ID=145)
+		Map(V='$Current=\'40A\' $N=\'40\'', ID=146)
+		Map(V='$Current=\'45A\' $N=\'40\'', ID=147)
+		Map(V='$Current=\'50A\' $N=\'40\'', ID=148)
+		Map(V='$Current=\'55A\' $N=\'40\'', ID=149)
+		Map(V='$Current=\'5A\' $N=\'40\'', ID=139)
+		Map(V='$Current=\'60A\' $N=\'40\'', ID=150)
+		Map(V='$Current=\'65A\' $N=\'40\'', ID=151)
+		Map(V='$Current=\'70A\' $N=\'40\'', ID=152)
+		Map(V='$Current=\'75A\' $N=\'40\'', ID=153)
+		Map(V='$Current=\'80A\' $N=\'40\'', ID=154)
+		Map(V='$Current=\'85A\' $N=\'40\'', ID=155)
+		Map(V='$Current=\'90A\' $N=\'40\'', ID=156)
+		Map(V='$Current=\'95A\' $N=\'40\'', ID=157)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=22, Ver=418, Dir='DV22_V418.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=22, Ver=418, Dir='DV22_MI0_V418.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock108'
+	SolutionName='AdaptivePass'
+	SolutionID=196
+	V=418
+	$begin 'States'
+		F(VID=22, Ver=418)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=22, Ver=418, File='DV22_SOL196_NFSP10_V418.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock108'
+$begin 'SolutionBlock109'
+	SolutionName='LastAdaptive'
+	SolutionID=197
+	V=418
+	$begin 'States'
+		F(VID=22, Ver=418)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(243, -1)
+		$begin 'DataMap'
+			VID=22
+			Ver=418
+			Field(DblID=243, Dir='DV22_SOL197_V418.Field243/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock109'
+$begin 'SolutionBlock110'
+	SimSetupID=195
+	SimSetupName='Setup1'
+	VersionID=418
+	SolveSetupID=1
+	$begin 'CurrMeshes'
+		IDDblMap(241, 1, 244, 2, 245, 3, 246, 4, 247, 5, 248, 6, 249, 7, 250, 8, 251, 9, 272, 10, 282, 11)
+		$begin 'DataMap'
+			VID=22
+			Ver=418
+			M(DblID=250, Dir='DV22_S195_V418.cmesh250/')
+			M(DblID=251, Dir='DV22_S195_V418.cmesh251/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'MeshOps'
+		OPS(VID=22, Ver=418, ID=0, ID=1)
+	$end 'MeshOps'
+	$begin 'LastPassNumbers'
+		LP(VID=22, Ver=418, P=8)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=22, Ver=418, File='DV22_S195_V418.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=22, Ver=418, Dir='DV22_S195_MI0_V418.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=22, Ver=418, Dir='DV22_S195_V418_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock110'
+$begin 'OptimetricsResult1'
+	V=2
+	vi('$Current', '120A', '120A', '120A')
+	svi('$N', '40')
+	gver(0)
+	ev(21, 112)
+	var(0.000000000000000e+000, 4.000000000000000e+001)
+	gvs(0.000000000000000e+000)
+	var(5.000000000000000e+000, 4.000000000000000e+001)
+	gvs(5.000000000000000e+000)
+	var(1.000000000000000e+001, 4.000000000000000e+001)
+	gvs(1.000000000000000e+001)
+	var(1.500000000000000e+001, 4.000000000000000e+001)
+	gvs(1.500000000000000e+001)
+	var(2.000000000000000e+001, 4.000000000000000e+001)
+	gvs(2.000000000000000e+001)
+	var(2.500000000000000e+001, 4.000000000000000e+001)
+	gvs(2.500000000000000e+001)
+	var(3.000000000000000e+001, 4.000000000000000e+001)
+	gvs(3.000000000000000e+001)
+	var(3.500000000000000e+001, 4.000000000000000e+001)
+	gvs(3.500000000000000e+001)
+	var(4.000000000000000e+001, 4.000000000000000e+001)
+	gvs(4.000000000000000e+001)
+	var(4.500000000000000e+001, 4.000000000000000e+001)
+	gvs(4.500000000000000e+001)
+	var(5.000000000000000e+001, 4.000000000000000e+001)
+	gvs(5.000000000000000e+001)
+	var(5.500000000000000e+001, 4.000000000000000e+001)
+	gvs(5.500000000000000e+001)
+	var(6.000000000000000e+001, 4.000000000000000e+001)
+	gvs(6.000000000000000e+001)
+	var(6.500000000000000e+001, 4.000000000000000e+001)
+	gvs(6.500000000000000e+001)
+	var(7.000000000000000e+001, 4.000000000000000e+001)
+	gvs(7.000000000000000e+001)
+	var(7.500000000000000e+001, 4.000000000000000e+001)
+	gvs(7.500000000000000e+001)
+	var(8.000000000000000e+001, 4.000000000000000e+001)
+	gvs(8.000000000000000e+001)
+	var(8.500000000000000e+001, 4.000000000000000e+001)
+	gvs(8.500000000000000e+001)
+	var(9.000000000000000e+001, 4.000000000000000e+001)
+	gvs(9.000000000000000e+001)
+	var(9.500000000000000e+001, 4.000000000000000e+001)
+	gvs(9.500000000000000e+001)
+	var(1.000000000000000e+002, 4.000000000000000e+001)
+	gvs(1.000000000000000e+002)
+	var(1.050000000000000e+002, 4.000000000000000e+001)
+	gvs(1.050000000000000e+002)
+	var(1.100000000000000e+002, 4.000000000000000e+001)
+	gvs(1.100000000000000e+002)
+	var(1.150000000000000e+002, 4.000000000000000e+001)
+	gvs(1.150000000000000e+002)
+	var(1.200000000000000e+002, 4.000000000000000e+001)
+	gvs(1.200000000000000e+002)
+	var(1.250000000000000e+002, 4.000000000000000e+001)
+	gvs(1.250000000000000e+002)
+	var(1.300000000000000e+002, 4.000000000000000e+001)
+	gvs(1.300000000000000e+002)
+	var(1.350000000000000e+002, 4.000000000000000e+001)
+	gvs(1.350000000000000e+002)
+	var(1.400000000000000e+002, 4.000000000000000e+001)
+	gvs(1.400000000000000e+002)
+	var(1.450000000000000e+002, 4.000000000000000e+001)
+	gvs(1.450000000000000e+002)
+	var(1.500000000000000e+002, 4.000000000000000e+001)
+	gvs(1.500000000000000e+002)
+$end 'OptimetricsResult1'
+$begin 'OptimetricsResults'
+	'0:0'='OptimetricsResult1'
+$end 'OptimetricsResults'
+$begin '$index$'
+	$begin '$index$'
+		OptimetricsResults(pos=8499, lin=225, lvl=0)
+		BlockMapName(pos=1488, lin=17, lvl=0)
+		SolutionBlock111(pos=370, lin=1, lvl=0)
+		SolutionBlock108(pos=4114, lin=81, lvl=0)
+		SolutionBlock109(pos=4520, lin=101, lvl=0)
+		SolutionBlock110(pos=4956, lin=123, lvl=0)
+		SolutionBlock1(pos=2012, lin=24, lvl=0)
+		OptimetricsResult1(pos=5819, lin=156, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=8581, lin=228, lvl=0)
+	$end '$index$'
+$end '$index$'
